@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap'); 
+/* Primero se importa esta fuente y luego a los elementos que quiero la fuente le agrego lo de css */
+:root{
+    --color-empresa: bisque;
+}
+
+
+.logo{
+    width: 4rem;
+    /*border-radius: rem;*/
+
+}
+
+.nombre-empresa{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 5rem;
+}
+
+header{
+    display: flex;  
+    background-color: var(--color-empresa);  
+}
+
+nav{
+    margin-top: 1.5rem;
+}    
+
+.btn-menu{
+    border: 2px solid blue;
+    padding: .8rem;
+    margin-right: 0.5rem;
+    background-color: gray;
+    color: white;
+    border-radius: .5rem;
+    text-decoration: none;
+}
+
+.section-img{
+    width: 15%;
+}
+
+.contenido{
+    display: flex;
+    gap: .8rem; /*Separador entre líneas */
+}
+section{
+    border: 1px solid lightgreen;
+    margin-top: 5rem;
+    padding: .8rem;
+}
+
+footer{
+    background-color: var(--color-empresa);
+    padding: 8rem;
+}
+
+footer p{
+    background-color: var(--color-empresa);
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+}
